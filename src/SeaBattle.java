@@ -146,7 +146,7 @@ public class SeaBattle {
         for (char[] row : board) {
             for (char cell : row) {
                 if (cell == 'S') {
-                    return false; // At least one ship is not sunk
+                    return false;
                 }
             }
         }
